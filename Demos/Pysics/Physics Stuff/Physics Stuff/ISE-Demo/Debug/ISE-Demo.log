@@ -1,0 +1,14 @@
+﻿  Main.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\data\uni stuff\troy's physics stuff\ise-demo\collision_coarse.h(238): warning C4812: obsolete declaration style: please use 'BVHNode<BoundingVolumeClass>::~BVHNode' instead
+c:\data\uni stuff\troy's physics stuff\ise-demo\main.cpp(297): warning C4305: '=' : truncation from 'double' to 'float'
+c:\data\uni stuff\troy's physics stuff\ise-demo\main.cpp(298): warning C4305: '=' : truncation from 'double' to 'float'
+c:\data\uni stuff\troy's physics stuff\ise-demo\main.cpp(299): warning C4305: '=' : truncation from 'double' to 'float'
+c:\data\uni stuff\troy's physics stuff\ise-demo\main.cpp(301): warning C4018: '<' : signed/unsigned mismatch
+c:\data\uni stuff\troy's physics stuff\ise-demo\main.cpp(316): warning C4018: '<' : signed/unsigned mismatch
+c:\data\uni stuff\troy's physics stuff\ise-demo\main.cpp(322): warning C4018: '<' : signed/unsigned mismatch
+c:\data\uni stuff\troy's physics stuff\ise-demo\main.cpp(338): warning C4018: '<' : signed/unsigned mismatch
+  Collision_coarse.cpp
+c:\data\uni stuff\troy's physics stuff\ise-demo\collision_coarse.h(238): warning C4812: obsolete declaration style: please use 'BVHNode<BoundingVolumeClass>::~BVHNode' instead
+  Generating Code...
+  ISE-Demo.vcxproj -> C:\Data\Uni Stuff\Troy's Physics Stuff\Debug\ISE-Demo.exe

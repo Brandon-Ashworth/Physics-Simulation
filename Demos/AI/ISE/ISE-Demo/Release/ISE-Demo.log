@@ -1,0 +1,48 @@
+﻿Build started 28/05/2014 5:46:00 PM.
+     1>Project "C:\Users\Seij\Uni\ICT311\ABCDEFGHIJKLMNOPQRSTUVWXYZ\Code\ISE\ISE-Demo\ISE-Demo\ISE-Demo.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\ISE-Demo.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\Seij\Uni\ICT311\ABCDEFGHIJKLMNOPQRSTUVWXYZ\Code\ISE\ISE-Demo\\ThirdParty\assimp\include" /I"C:\Users\Seij\Uni\ICT311\ABCDEFGHIJKLMNOPQRSTUVWXYZ\Code\ISE\ISE-Demo\\ThirdParty\SFML-2.1\include" /I"C:\Users\Seij\Uni\ICT311\ABCDEFGHIJKLMNOPQRSTUVWXYZ\Code\ISE\ISE-Demo\\ThirdParty\lua5.1\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>Main.cpp(17): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(17): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Seij\Uni\ICT311\ABCDEFGHIJKLMNOPQRSTUVWXYZ\Code\ISE\ISE-Demo\Release\ISE-Demo.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\Seij\Uni\ICT311\ABCDEFGHIJKLMNOPQRSTUVWXYZ\Code\ISE\ISE-Demo\\ThirdParty\assimp\lib\assimp_release-dll_win32" /LIBPATH:"C:\Users\Seij\Uni\ICT311\ABCDEFGHIJKLMNOPQRSTUVWXYZ\Code\ISE\ISE-Demo\\ThirdParty\SFML-2.1\lib" /LIBPATH:"C:\Users\Seij\Uni\ICT311\ABCDEFGHIJKLMNOPQRSTUVWXYZ\Code\ISE\ISE-Demo\\ThirdParty\lua5.1\lib" "sfml-graphics.lib" "sfml-window.lib" "sfml-system.lib" opengl32.lib glu32.lib assimp.lib lua5.1.lib luabindd.lib lua51.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\ISE-Demo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Seij\Uni\ICT311\ABCDEFGHIJKLMNOPQRSTUVWXYZ\Code\ISE\ISE-Demo\Release\ISE-Demo.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Seij\Uni\ICT311\ABCDEFGHIJKLMNOPQRSTUVWXYZ\Code\ISE\ISE-Demo\Release\ISE-Demo.lib" /MACHINE:X86 Release\AssetMng.obj
+         Release\Camera.obj
+         Release\Clock.obj
+         Release\Effect.obj
+         Release\GameObject.obj
+         Release\GameObjectFactory.obj
+         Release\gameScript.obj
+         Release\HUD.obj
+         Release\Input.obj
+         Release\ISE.obj
+         Release\Loaderab.obj
+         Release\Main.obj
+         Release\Object2D.obj
+         Release\Object3D.obj
+         Release\objLoader.obj
+         Release\OPENGL_Facade.obj
+         Release\Render.obj
+         Release\RenderEngine.obj
+         Release\SFML_Clock.obj
+         Release\SFML_Facade.obj
+         Release\SFML_Input.obj
+         Release\SFML_Texture.obj
+         Release\Texture.obj
+         Release\Window.obj
+         Generating code
+     1>c:\users\seij\uni\ict311\abcdefghijklmnopqrstuvwxyz\code\ise\ise-demo\ise-demo\gameobjectfactory.cpp(29): warning C4715: 'GameObjectFactory::Create' : not all control paths return a value
+         Finished generating code
+         ISE-Demo.vcxproj -> C:\Users\Seij\Uni\ICT311\ABCDEFGHIJKLMNOPQRSTUVWXYZ\Code\ISE\ISE-Demo\Release\ISE-Demo.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Seij\Uni\ICT311\ABCDEFGHIJKLMNOPQRSTUVWXYZ\Code\ISE\ISE-Demo\Release\ISE-Demo.exe;#1" /manifest "Release\ISE-Demo.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\ISE-Demo.unsuccessfulbuild".
+         Touching "Release\ISE-Demo.lastbuildstate".
+     1>Done Building Project "C:\Users\Seij\Uni\ICT311\ABCDEFGHIJKLMNOPQRSTUVWXYZ\Code\ISE\ISE-Demo\ISE-Demo\ISE-Demo.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.19
